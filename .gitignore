@@ -1,0 +1,17 @@
+_site/
+.venv/
+__pycache__/
+*.py[cod]
+*.pdf
+*.zip
+/projects/smart-irrigation/
+/projects/A14CLIMATE-AISIS/
+/projects/ai4climate/*
+!/projects/ai4climate/index.html
+!/projects/ai4climate/styles.css
+!/projects/ai4climate/app.js
+!/projects/ai4climate/moisture-ai.js
+!/projects/ai4climate/models/
+/projects/ai4climate/models/*
+!/projects/ai4climate/models/evaluation.json
+!/projects/ai4climate/models/moisture-model.json

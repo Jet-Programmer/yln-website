@@ -1,0 +1,27 @@
+{
+  "id": "arnesano-sector1-rf-v1",
+  "algorithm": "Random Forest regression",
+  "source": "https://data.mendeley.com/datasets/c837v6p8ph/2",
+  "download": "https://data.mendeley.com/public-files/datasets/c837v6p8ph/files/fd0cc2c7-9d0b-4a92-a224-535cbe8e9ca5/file_downloaded",
+  "source_sha256": "994ae706bf45d83bccfbc77c97977bccf44f7bef939d468d9c1458c680ed2bd3",
+  "license": "CC BY 4.0",
+  "authors": "Adamo, Colizzi, Dimauro, Guerriero & Lomonte (2026)",
+  "scope": "Arnesano, Italy \u00b7 sector 1 \u00b7 open-field tomato \u00b7 historical replay only",
+  "unit": "sensor-scale percentage points (not calibrated field VWC)",
+  "timezone": "Europe/Rome naive source timestamps; no DST correction",
+  "target": "Mean sensor reading for the completed hour 24 clock-hours after origin",
+  "train_rows": 689,
+  "test_rows": 179,
+  "train_start": "2025-06-08 16:00:00",
+  "train_end": "2025-08-27 15:00:00",
+  "train_target_end": "2025-08-28 15:00:00",
+  "test_start": "2025-08-28 16:00:00",
+  "test_end": "2025-09-05 02:00:00",
+  "metrics": {
+    "model_mae_points": 0.2360693329764051,
+    "persistence_mae_points": 0.2953445065176909,
+    "beats_persistence": true
+  },
+  "sklearn_version": "1.7.2",
+  "limitations": "One sector and season; observational, not causal. Future irrigation is unknown. Sensor faults and missingness may bias evaluation. Not validated on other fields, crops or sensor scales. No irrigation dose, safe-delay or water-saving claim."
+}
